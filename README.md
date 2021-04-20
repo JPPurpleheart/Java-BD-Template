@@ -66,7 +66,7 @@ Cargar fichero sql desde consola
 docker@container>`mysql -udeveloper -p biblioteca < /home/bd/biblioteca.sql`
 
 Consultar ip contenedor desde consola
-`docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nombre_base_de_datos`
+`docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nombre_base_de_datos_no_adminer_docker-compose_ps`
 
 Eliminar todos los contedores  
 $>'docker-compose  rm -s'
